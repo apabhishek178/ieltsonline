@@ -340,9 +340,9 @@
                       </div>
                     </div>
                   </div>
+
                   {% endif %}
               {% endfor %}
-
 
 
               {% for objs in summary %}
@@ -387,6 +387,7 @@
                                         {% if objq.option4 %}<input type="radio" name="mcqqa[{{ forloop.counter0 }}]" value="{{ objq.option4 }}">&nbsp&nbsp&nbsp&nbsp{{ objq.option4 }}<br>{% endif %}
                                         {% if objq.option5 %}<input type="radio" name="mcqqa[{{ forloop.counter0 }}]" value="{{ objq.option5 }}">&nbsp&nbsp&nbsp&nbsp{{ objq.option5 }}<br>{% endif %}
                                         {% if objq.option6 %}<input type="radio" name="mcqqa[{{ forloop.counter0 }}]" value="{{ objq.option6 }}">&nbsp&nbsp&nbsp&nbsp{{ objq.option6 }}<br>{% endif %}
+                                      <br><br>
                                   {% endif %}
                               {% endfor %}
                           </div>
@@ -442,44 +443,44 @@
                         <div class="form-group row">
                           <div class="">
                               {{ objm.l1 }}
-                                <input type="hidden" name="mata0" id="mat0" value="" >
+                                <input type="hidden" name="mata0" id="mata0" value="" >
                               <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" name="mata0"></div>
                                 <br>
                               {{ objm.l2 }}
-                                <input type="hidden" name="mata1" id="mat1" value="" >
+                                <input type="hidden" name="mata1" id="mata1" value="" >
                               <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" name="mata1"></div>
                                 <br>
                               {{ objm.l3 }}
-                                <input type="hidden" name="mata2" id="mat2" value="" >
+                                <input type="hidden" name="mata2" id="mata2" value="" >
                               <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" name="mata2"></div>
                                 <br>
                               {%  if objm.l4 %}
                               {{ objm.l4 }}
-                                  <input type="hidden" name="mata3" id="mat3" value="" >
+                                  <input type="hidden" name="mata3" id="mata3" value="" >
                               <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" name="mata3"></div>
                                 <br>
                               {% endif %}
                               {% if objm.l5 %}
                               {{ objm.l5 }}
-                                  <input type="hidden" name="mata4" id="mat4" value="" >
+                                  <input type="hidden" name="mata4" id="mata4" value="" >
                               <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" name="mata4"></div>
                                   </br>
                               {% endif %}
                               {% if objm.l6 %}
                               {{ objm.l6 }}
-                                  <input type="hidden" name="mata5" id="mat5" value="" >
+                                  <input type="hidden" name="mata5" id="mata5" value="" >
                               <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" name="mata5"></div>
                                   </br>
                               {% endif %}
                               {% if objm.l7 %}
                               {{ objm.l7 }}
-                                  <input type="hidden" name="mata6" id="mat6" value="" >
+                                  <input type="hidden" name="mata6" id="mata6" value="" >
                               <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" name="mata6"></div>
                                   </br>
                               {% endif %}
                               {% if objm.l8 %}
                               {{ objm.l8 }}
-                                  <input type="hidden" name="mata7" id="mat7" value="" >
+                                  <input type="hidden" name="mata7" id="mata7" value="" >
                               <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" name="mata7"></div>
                                   </br>
                               {% endif %}
@@ -487,10 +488,10 @@
                               <div id="drag2"  draggable="true" ondragstart="drag(event)" width="336" height="69">{{ objm.r2 }}</div>
                               <div id="drag3"  draggable="true" ondragstart="drag(event)" width="336" height="69">{{ objm.r3 }}</div>
                               <div id="drag4"  draggable="true" ondragstart="drag(event)" width="336" height="69">{{ objm.r4 }}</div>
-                              <div id="drag4"  draggable="true" ondragstart="drag(event)" width="336" height="69">{{ objm.r5 }}</div>
-                              <div id="drag4"  draggable="true" ondragstart="drag(event)" width="336" height="69">{{ objm.r6 }}</div>
-                              <div id="drag4"  draggable="true" ondragstart="drag(event)" width="336" height="69">{{ objm.r7 }}</div>
-                              <div id="drag4"  draggable="true" ondragstart="drag(event)" width="336" height="69">{{ objm.r8 }}</div>
+                              <div id="drag5"  draggable="true" ondragstart="drag(event)" width="336" height="69">{{ objm.r5 }}</div>
+                              <div id="drag6"  draggable="true" ondragstart="drag(event)" width="336" height="69">{{ objm.r6 }}</div>
+                              <div id="drag7"  draggable="true" ondragstart="drag(event)" width="336" height="69">{{ objm.r7 }}</div>
+                              <div id="drag8"  draggable="true" ondragstart="drag(event)" width="336" height="69">{{ objm.r8 }}</div>
                           </div>
                         </div>
                       </div>
@@ -500,11 +501,10 @@
                     {% endif %}
                     {% endfor %}
 
-                <div class="table-responsive">
 
-                  </div>
                 </div>
               </div>
+            </div>
             </div>
             {% endif %}
 
@@ -665,55 +665,55 @@
                         <div class="form-group row">
                           <div class="">
                               {{ objm.l1 }}
-                                <input type="hidden" name="matb0" id="mat0" value="" >
+                                <input type="hidden" name="matb0" id="matb0" value="" >
                               <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" name="mata0"></div>
                                 <br>
                               {{ objm.l2 }}
-                                <input type="hidden" name="matb1" id="mat1" value="" >
+                                <input type="hidden" name="matb1" id="matb1" value="" >
                               <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" name="mata1"></div>
                                 <br>
                               {{ objm.l3 }}
-                                <input type="hidden" name="matb2" id="mat2" value="" >
+                                <input type="hidden" name="matb2" id="matb2" value="" >
                               <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" name="mata2"></div>
                                 <br>
                               {%  if objm.l4 %}
                               {{ objm.l4 }}
-                                  <input type="hidden" name="matb3" id="mat3" value="" >
+                                  <input type="hidden" name="matb3" id="matb3" value="" >
                               <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" name="mata3"></div>
                                 <br>
                               {% endif %}
                               {% if objm.l5 %}
                               {{ objm.l5 }}
-                                  <input type="hidden" name="matb4" id="mat4" value="" >
+                                  <input type="hidden" name="matb4" id="matb4" value="" >
                               <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" name="mata4"></div>
                                   </br>
                               {% endif %}
                               {% if objm.l6 %}
                               {{ objm.l6 }}
-                                  <input type="hidden" name="matb5" id="mat5" value="" >
+                                  <input type="hidden" name="matb5" id="matb5" value="" >
                               <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" name="mata5"></div>
                                   </br>
                               {% endif %}
                               {% if objm.l7 %}
                               {{ objm.l7 }}
-                                  <input type="hidden" name="matb6" id="mat6" value="" >
+                                  <input type="hidden" name="matb6" id="matb6" value="" >
                               <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" name="mata6"></div>
                                   </br>
                               {% endif %}
                               {% if objm.l8 %}
                               {{ objm.l8 }}
-                                  <input type="hidden" name="matb7" id="mat7" value="" >
+                                  <input type="hidden" name="matb7" id="matb7" value="" >
                               <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" name="mata7"></div>
                                   </br>
                               {% endif %}
-                              <div id="drag1"  draggable="true" ondragstart="drag(event)" width="336" height="69">{{ objm.r1 }}</div>
-                              <div id="drag2"  draggable="true" ondragstart="drag(event)" width="336" height="69">{{ objm.r2 }}</div>
-                              <div id="drag3"  draggable="true" ondragstart="drag(event)" width="336" height="69">{{ objm.r3 }}</div>
-                              <div id="drag4"  draggable="true" ondragstart="drag(event)" width="336" height="69">{{ objm.r4 }}</div>
-                              <div id="drag4"  draggable="true" ondragstart="drag(event)" width="336" height="69">{{ objm.r5 }}</div>
-                              <div id="drag4"  draggable="true" ondragstart="drag(event)" width="336" height="69">{{ objm.r6 }}</div>
-                              <div id="drag4"  draggable="true" ondragstart="drag(event)" width="336" height="69">{{ objm.r7 }}</div>
-                              <div id="drag4"  draggable="true" ondragstart="drag(event)" width="336" height="69">{{ objm.r8 }}</div>
+                              <div id="drag11"  draggable="true" ondragstart="drag(event)" width="336" height="69">{{ objm.r1 }}</div>
+                              <div id="drag12"  draggable="true" ondragstart="drag(event)" width="336" height="69">{{ objm.r2 }}</div>
+                              <div id="drag13"  draggable="true" ondragstart="drag(event)" width="336" height="69">{{ objm.r3 }}</div>
+                              <div id="drag14"  draggable="true" ondragstart="drag(event)" width="336" height="69">{{ objm.r4 }}</div>
+                              <div id="drag15"  draggable="true" ondragstart="drag(event)" width="336" height="69">{{ objm.r5 }}</div>
+                              <div id="drag16"  draggable="true" ondragstart="drag(event)" width="336" height="69">{{ objm.r6 }}</div>
+                              <div id="drag17"  draggable="true" ondragstart="drag(event)" width="336" height="69">{{ objm.r7 }}</div>
+                              <div id="drag18"  draggable="true" ondragstart="drag(event)" width="336" height="69">{{ objm.r8 }}</div>
                           </div>
                         </div>
                       </div>
@@ -887,55 +887,55 @@
                         <div class="form-group row">
                           <div class="">
                               {{ objm.l1 }}
-                                <input type="hidden" name="matc0" id="mat0" value="" >
+                                <input type="hidden" name="matc0" id="matc0" value="" >
                               <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" name="mata0"></div>
                                 <br>
                               {{ objm.l2 }}
-                                <input type="hidden" name="matc1" id="mat1" value="" >
+                                <input type="hidden" name="matc1" id="matc1" value="" >
                               <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" name="mata1"></div>
                                 <br>
                               {{ objm.l3 }}
-                                <input type="hidden" name="matc2" id="mat2" value="" >
+                                <input type="hidden" name="matc2" id="matc2" value="" >
                               <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" name="mata2"></div>
                                 <br>
                               {%  if objm.l4 %}
                               {{ objm.l4 }}
-                                  <input type="hidden" name="matc3" id="mat3" value="" >
+                                  <input type="hidden" name="matc3" id="matc3" value="" >
                               <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" name="mata3"></div>
                                 <br>
                               {% endif %}
                               {% if objm.l5 %}
                               {{ objm.l5 }}
-                                  <input type="hidden" name="matc4" id="mat4" value="" >
+                                  <input type="hidden" name="matc4" id="matc4" value="" >
                               <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" name="mata4"></div>
                                   </br>
                               {% endif %}
                               {% if objm.l6 %}
                               {{ objm.l6 }}
-                                  <input type="hidden" name="matc5" id="mat5" value="" >
+                                  <input type="hidden" name="matc5" id="matc5" value="" >
                               <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" name="mata5"></div>
                                   </br>
                               {% endif %}
                               {% if objm.l7 %}
                               {{ objm.l7 }}
-                                  <input type="hidden" name="matc6" id="mat6" value="" >
+                                  <input type="hidden" name="matc6" id="matc6" value="" >
                               <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" name="mata6"></div>
                                   </br>
                               {% endif %}
                               {% if objm.l8 %}
                               {{ objm.l8 }}
-                                  <input type="hidden" name="matc7" id="mat7" value="" >
+                                  <input type="hidden" name="matc7" id="matc7" value="" >
                               <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" name="mata7"></div>
                                   </br>
                               {% endif %}
-                              <div id="drag1"  draggable="true" ondragstart="drag(event)" width="336" height="69">{{ objm.r1 }}</div>
-                              <div id="drag2"  draggable="true" ondragstart="drag(event)" width="336" height="69">{{ objm.r2 }}</div>
-                              <div id="drag3"  draggable="true" ondragstart="drag(event)" width="336" height="69">{{ objm.r3 }}</div>
-                              <div id="drag4"  draggable="true" ondragstart="drag(event)" width="336" height="69">{{ objm.r4 }}</div>
-                              <div id="drag4"  draggable="true" ondragstart="drag(event)" width="336" height="69">{{ objm.r5 }}</div>
-                              <div id="drag4"  draggable="true" ondragstart="drag(event)" width="336" height="69">{{ objm.r6 }}</div>
-                              <div id="drag4"  draggable="true" ondragstart="drag(event)" width="336" height="69">{{ objm.r7 }}</div>
-                              <div id="drag4"  draggable="true" ondragstart="drag(event)" width="336" height="69">{{ objm.r8 }}</div>
+                              <div id="drag21"  draggable="true" ondragstart="drag(event)" width="336" height="69">{{ objm.r1 }}</div>
+                              <div id="drag22"  draggable="true" ondragstart="drag(event)" width="336" height="69">{{ objm.r2 }}</div>
+                              <div id="drag23"  draggable="true" ondragstart="drag(event)" width="336" height="69">{{ objm.r3 }}</div>
+                              <div id="drag24"  draggable="true" ondragstart="drag(event)" width="336" height="69">{{ objm.r4 }}</div>
+                              <div id="drag25"  draggable="true" ondragstart="drag(event)" width="336" height="69">{{ objm.r5 }}</div>
+                              <div id="drag26"  draggable="true" ondragstart="drag(event)" width="336" height="69">{{ objm.r6 }}</div>
+                              <div id="drag27"  draggable="true" ondragstart="drag(event)" width="336" height="69">{{ objm.r7 }}</div>
+                              <div id="drag28"  draggable="true" ondragstart="drag(event)" width="336" height="69">{{ objm.r8 }}</div>
                           </div>
                         </div>
                       </div>

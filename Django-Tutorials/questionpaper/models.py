@@ -119,6 +119,8 @@ class ReadingAnswer(models.Model):
     fillupb1 = models.CharField(max_length=100, null=True)
     fillup_idb2 = models.IntegerField(null=True)
     fillupb2 = models.CharField(max_length=100, null=True)
+    fillup_idb3 = models.IntegerField(null=True)
+    fillupb3 = models.CharField(max_length=100, null=True)
 
     mat_idb = models.IntegerField(null=True)
     matb0 = models.CharField(max_length=10, null=True)
@@ -151,6 +153,8 @@ class ReadingAnswer(models.Model):
 
     mcq_idc = models.IntegerField(null=True)
     mcqc0 = models.CharField(max_length=100, null=True)
+    mcq_idc1 = models.IntegerField(null=True)
+    mcqc1 = models.CharField(max_length=100, null=True)
 
     fillup_idc0 = models.IntegerField(null=True)
     fillupc0 = models.CharField(max_length=100, null=True)
@@ -190,6 +194,7 @@ class ReadingAnswer(models.Model):
 
     mcq_idd = models.IntegerField(null=True)
     mcqd0 = models.CharField(max_length=100, null=True)
+
 
     fillup_idd0 = models.IntegerField(null=True)
     fillupd0 = models.CharField(max_length=100, null=True)
@@ -235,8 +240,16 @@ class ListeningAnswer(models.Model):
     sum4 = models.CharField(max_length=100, null=True)
     sum5 = models.CharField(max_length=100, null=True)
 
-    mcq_id = models.IntegerField(null=True)
+    mcq_id0 = models.IntegerField(null=True)
     mcq0 = models.CharField(max_length=100, null=True)
+    mcq_id1 = models.IntegerField(null=True)
+    mcq1 = models.CharField(max_length=100, null=True)
+    mcq_id2 = models.IntegerField(null=True)
+    mcq2 = models.CharField(max_length=100, null=True)
+    mcq_id3 = models.IntegerField(null=True)
+    mcq3 = models.CharField(max_length=100, null=True)
+    mcq_id4 = models.IntegerField(null=True)
+    mcq4 = models.CharField(max_length=100, null=True)
 
     fillup_id0 = models.IntegerField(null=True)
     fillup0 = models.CharField(max_length=100, null=True)
@@ -276,8 +289,14 @@ class ListeningAnswer(models.Model):
     sumb4 = models.CharField(max_length=100, null=True)
     sumb5 = models.CharField(max_length=100, null=True)
 
-    mcq_idb = models.IntegerField(null=True)
+    mcq_idb0 = models.IntegerField(null=True)
     mcqb0 = models.CharField(max_length=100, null=True)
+    mcq_idb1 = models.IntegerField(null=True)
+    mcqb1 = models.CharField(max_length=100, null=True)
+    mcq_idb2 = models.IntegerField(null=True)
+    mcqb2 = models.CharField(max_length=100, null=True)
+    mcq_idb3 = models.IntegerField(null=True)
+    mcqb3 = models.CharField(max_length=100, null=True)
 
     fillup_idb0 = models.IntegerField(null=True)
     fillupb0 = models.CharField(max_length=100, null=True)
@@ -285,6 +304,10 @@ class ListeningAnswer(models.Model):
     fillupb1 = models.CharField(max_length=100, null=True)
     fillup_idb2 = models.IntegerField(null=True)
     fillupb2 = models.CharField(max_length=100, null=True)
+    fillup_idb3 = models.IntegerField(null=True)
+    fillupb3 = models.CharField(max_length=100, null=True)
+    fillup_idb4 = models.IntegerField(null=True)
+    fillupb4 = models.CharField(max_length=100, null=True)
 
     mat_idb = models.IntegerField(null=True)
     matb0 = models.CharField(max_length=10, null=True)
@@ -315,8 +338,16 @@ class ListeningAnswer(models.Model):
     sumc4 = models.CharField(max_length=100, null=True)
     sumc5 = models.CharField(max_length=100, null=True)
 
-    mcq_idc = models.IntegerField(null=True)
+    mcq_idc0 = models.IntegerField(null=True)
     mcqc0 = models.CharField(max_length=100, null=True)
+    mcq_idc1 = models.IntegerField(null=True)
+    mcqc1 = models.CharField(max_length=100, null=True)
+    mcq_idc2 = models.IntegerField(null=True)
+    mcqc2 = models.CharField(max_length=100, null=True)
+    mcq_idc3 = models.IntegerField(null=True)
+    mcqc3 = models.CharField(max_length=100, null=True)
+    mcq_idc4 = models.IntegerField(null=True)
+    mcqc4 = models.CharField(max_length=100, null=True)
 
     fillup_idc0 = models.IntegerField(null=True)
     fillupc0 = models.CharField(max_length=100, null=True)
@@ -363,6 +394,17 @@ class ListeningAnswer(models.Model):
     fillupd1 = models.CharField(max_length=100, null=True)
     fillup_idd2 = models.IntegerField(null=True)
     fillupd2 = models.CharField(max_length=100, null=True)
+    fillup_idd3 = models.IntegerField(null=True)
+    fillupd3 = models.CharField(max_length=100, null=True)
+    fillup_idd4 = models.IntegerField(null=True)
+    fillupd4 = models.CharField(max_length=100, null=True)
+    fillup_idd5 = models.IntegerField(null=True)
+    fillupd5 = models.CharField(max_length=100, null=True)
+    fillup_idd6 = models.IntegerField(null=True)
+    fillupd6 = models.CharField(max_length=100, null=True)
+
+
+
 
     mat_idd = models.IntegerField(null=True)
     matd0 = models.CharField(max_length=10, null=True)
